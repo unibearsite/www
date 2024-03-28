@@ -15,8 +15,8 @@ jobs:
 
       - name: "Run a generate www"
         run: |
-          git config --global user.name { USER_NAME }
-          git config --global user.email { USER_EMAIL }
+          git config --global user.name {{ USER_NAME }}
+          git config --global user.email {{ USER_EMAIL }}
           
           echo "w" >> README.md
           
